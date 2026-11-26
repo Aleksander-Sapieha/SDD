@@ -16,12 +16,3 @@ def load(filepath):
         source = file.read()
 
     return loads(source)
-
-def loadb(filepath):
-    """Load and parse a binary SDD file."""
-    with open(filepath, "r", encoding="utf-8") as file:
-        if not file.name.lower().endswith(".sddb"):
-            raise SDDFileError("Please use a .sdd file extension")
-        source = file.read()
-
-    return pickle.load(source)
