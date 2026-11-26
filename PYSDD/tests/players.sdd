@@ -1,0 +1,17 @@
+SDD 1.0
+
+game is string "MyGame"
+
+players is array
+    contains
+        name is string "Source"
+        level is integer 25
+        online is boolean true
+    end
+
+    contains
+        name is string "Player2"
+        level is null
+        online is boolean false
+    end
+end
