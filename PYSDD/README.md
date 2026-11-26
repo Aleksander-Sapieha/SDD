@@ -25,7 +25,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Aleksander-Sapieha/SDD.git
-cd SDD/PYSDD
+cd SDD
 ```
 
 Import the library in Python:
@@ -36,7 +36,7 @@ import PYSDD
 
 ## Basic SDD Syntax
 
-Every PYSDD document starts with a version declaration:
+Every SDD document starts with a version declaration:
 
 ```text
 SDD 1.0
