@@ -4,8 +4,8 @@
 
 PYSDD is the official Python implementation of SDD. It provides tools for parsing, loading, serializing, and saving SDD documents.
 
-> **Version:** 1.0 
-> **SDD version supported:** 1.0  
+> **Current Version:** 1.0 
+> **Earliest SDD version supported:** 1.0  
 
 ## Features
 
@@ -24,7 +24,7 @@ PYSDD is the official Python implementation of SDD. It provides tools for parsin
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/Aleksander-Sapieha/SDD.git
 cd SDD/PYSDD
 ```
 
