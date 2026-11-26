@@ -120,13 +120,4 @@ def dump(data, filepath):
             raise SDDFileError("Incorrect file extension. Use .sdd")
         
         file.write(source)
-
-def dumpb(data, filepath):
-    """Dumps SDD data into a binary file"""
-    source = dumps(data)
-
-    with open(filepath, "wb", encoding="utf-8", newline="\n") as file:
-        if not file.name.lower().endswith(".sddb"):
-            raise SDDFileError("Incorrect file extension. Use .sddb")
         
-        pickle.dump(source, file)
