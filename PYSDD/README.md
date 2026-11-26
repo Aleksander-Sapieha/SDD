@@ -39,7 +39,7 @@ import PYSDD
 Every PYSDD document starts with a version declaration:
 
 ```text
-PYSDD 1.0
+SDD 1.0
 ```
 
 ### Primitive values
