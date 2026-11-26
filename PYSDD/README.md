@@ -219,8 +219,8 @@ SDD/
 │   ├── parser.py
 │   ├── serializer.py
 │   ├── loader.py
+│   ├── main.py
 │   └── errors.py
-├── docs/
 ├── main.py
 ├── README.md
 └── LICENSE
