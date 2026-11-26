@@ -1,5 +1,6 @@
-
+import pickle
 from decimal import Decimal
+from PYSDD.errors import SDDFileError
 
 
 def serialize_value(value, indent=0):
@@ -93,6 +94,7 @@ def serialize_assignment(name, value, indent=0):
 
 
 def dumps(data):
+    """Dump SDD data into a pythom string"""
     if not isinstance(data, dict):
         raise TypeError("SDD root data must be a dictionary")
 
@@ -108,7 +110,23 @@ def dumps(data):
 
 
 def dump(data, filepath):
+    """Dumps SDD data into a file"""
+
+
     source = dumps(data)
 
     with open(filepath, "w", encoding="utf-8", newline="\n") as file:
+        if not file.name.lower().endswith(".sdd"):
+            raise SDDFileError("Incorrect file extension. Use .sdd")
+        
         file.write(source)
+
+def dumpb(data, filepath):
+    """Dumps SDD data into a binary file"""
+    source = dumps(data)
+
+    with open(filepath, "wb", encoding="utf-8", newline="\n") as file:
+        if not file.name.lower().endswith(".sddb"):
+            raise SDDFileError("Incorrect file extension. Use .sddb")
+        
+        pickle.dump(source, file)

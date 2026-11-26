@@ -131,6 +131,7 @@ name is string "Source"
 
 data = PYSDD.loads(source)
 ```
+### You can also use PYSDD.loadb to dump into a file using pickle
 
 ### `PYSDD.dump(data, filepath)`
 
@@ -164,6 +165,8 @@ source = PYSDD.dumps(data)
 print(source)
 ```
 
+### You can also use PYSDD.dumpb to dump into a file using pickle
+
 ## Python Data Types
 
 | SDD type | Python type |
@@ -185,6 +188,7 @@ PYSDD defines several error classes:
 - `SDDTypeError`
 - `SDDDuplicateKeyError`
 - `SDDVersionError`
+- `SDDFileError`
 
 These can be imported from the `PYSDD.errors` module.
 

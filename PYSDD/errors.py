@@ -17,3 +17,6 @@ class SDDDuplicateKeyError(SDDError):
 
 class SDDVersionError(SDDError):
     pass
+
+class SDDFileError(SDDError):
+    pass
