@@ -131,7 +131,6 @@ name is string "Source"
 
 data = PYSDD.loads(source)
 ```
-### You can also use PYSDD.loadb to dump into a file using pickle
 
 ### `PYSDD.dump(data, filepath)`
 
@@ -164,8 +163,6 @@ data = {
 source = PYSDD.dumps(data)
 print(source)
 ```
-
-### You can also use PYSDD.dumpb to dump into a file using pickle
 
 ## Python Data Types
 
