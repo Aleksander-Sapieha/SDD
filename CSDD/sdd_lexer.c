@@ -1,5 +1,5 @@
 /*
-**  File: SDD/CDD/sdd_lexer.c
+**  File: SDD/CSDD/sdd_lexer.c
 **
 **  Creator: Aleksander Sapieha (sourceguy68@gmail.com)
 **
