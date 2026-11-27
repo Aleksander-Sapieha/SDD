@@ -1,3 +1,11 @@
+#
+#   file: SDD/PYSDD/lexer.py
+#   
+#   Creator: Aleksander Sapieha (sourceguy68@gmail.com)
+#
+#   Contributors:
+#   Aleksander Sapieha (sourceguy68@gmail.com)
+#
 
 from dataclasses import dataclass
 

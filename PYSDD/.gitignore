@@ -1,1 +1,10 @@
+#
+#   file: SDD/PYSDD/.gitignore
+#   
+#   Creator: Aleksander Sapieha (sourceguy68@gmail.com)
+#
+#   Contributors:
+#   Aleksander Sapieha (sourceguy68@gmail.com)
+#
+
 /__pycache__/

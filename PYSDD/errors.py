@@ -1,3 +1,11 @@
+#
+#   file: SDD/PYSDD/errors.py
+#   
+#   Creator: Aleksander Sapieha (sourceguy68@gmail.com)
+#
+#   Contributors:
+#   Aleksander Sapieha (sourceguy68@gmail.com)
+#
 
 class SDDError(Exception):
     pass

@@ -1,3 +1,12 @@
+#
+#   file: SDD/PYSDD/loader.py
+#   
+#   Creator: Aleksander Sapieha (sourceguy68@gmail.com)
+#
+#   Contributors:
+#   Aleksander Sapieha (sourceguy68@gmail.com)
+#
+
 from PYSDD.parser import Parser
 from PYSDD.errors import SDDFileError
 
