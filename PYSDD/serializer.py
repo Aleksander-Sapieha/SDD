@@ -7,7 +7,6 @@
 #   Aleksander Sapieha (sourceguy68@gmail.com)
 #
 
-import pickle
 from decimal import Decimal
 from PYSDD.errors import SDDFileError
 

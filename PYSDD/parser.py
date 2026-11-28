@@ -12,7 +12,6 @@ from decimal import Decimal, InvalidOperation
 from .lexer import Lexer
 from .errors import (
     SDDSyntaxError,
-    SDDTypeError,
     SDDDuplicateKeyError,
     SDDVersionError
 )

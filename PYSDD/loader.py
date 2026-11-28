@@ -10,8 +10,6 @@
 from PYSDD.parser import Parser
 from PYSDD.errors import SDDFileError
 
-import pickle
-
 def loads(source):
     """Parse SDD source text."""
     return Parser(source).parse()
